@@ -5,6 +5,20 @@ public class User {
 	private int userId;
 	private String userName;
 	private String userEmail;
+	private long userContact;
+	private String userAddress;
+	public long getUserContact() {
+		return userContact;
+	}
+	public void setUserContact(long userContact) {
+		this.userContact = userContact;
+	}
+	public String getUserAddress() {
+		return userAddress;
+	}
+	public void setUserAddress(String userAddress) {
+		this.userAddress = userAddress;
+	}
 	public int getUserId() {
 		return userId;
 	}
